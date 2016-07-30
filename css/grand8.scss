@@ -1,0 +1,192 @@
+@mixin prefix($property, $value, $prefixes: ()) {
+  @each $prefix in $prefixes {
+    #{'-' + $prefix + '-' + $property}: $value;
+  }
+  // Output standard non-prefixed declaration
+  #{$property}: $value;
+}
+
+
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+html
+{
+  height: 100%;
+  body
+  {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/background-bruit.png);
+    background-repeat: repeat;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: helvetica, arial, sans-serif;
+
+  }
+}
+
+
+#container {
+  width: 100%;
+  height: 100%;
+  border-clip:content-box;
+    background: url(../img/background-devanture-cut.png) no-repeat top center ;
+     @include prefix(background-size,contain,webkit ms o moz);
+
+/*
+  background-position: top;
+  background-image: url(../img/background-devanture-cut.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+*/
+}
+
+
+
+header {
+  background-color: #892034;
+  box-shadow: 0 2px 3px #892034;
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+h1 {
+  margin: 0;
+  color: white;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 3.2em;
+}
+
+h1 a {
+  text-decoration: none;
+  color: white;
+}
+
+#sprite {
+  text-align: right;
+  margin-right: 50px;
+  margin-top: -50px;
+}
+
+#sprite li {
+  margin-left: 10px;
+  display: inline-block;
+  vertical-align: top;
+  height: 32px;
+  width: 33px;
+}
+
+#facebook {
+  height: 32px;
+  width: 33px;
+  background-image: url(../img/sprites-social-icones.png);
+  background-position: 0 0;
+  display: block;
+}
+
+#instagram {
+  height: 32px;
+  width: 33px;
+  background-image: url(../img/sprites-social-icones.png);
+  background-position: -33px 0;
+  display: block;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  //height: 170px;
+  //overflow: visible;
+   p{
+   color: grey;
+   font-size: 0.5em;
+  }
+   nav ul{
+     margin: 0;
+     display: flex;
+     justify-content:center;
+     align-items:   center;
+     flex-flow: row wrap;
+
+   }
+   nav ul li
+   {
+    width: 30%;
+    height: 170px;
+    list-style-type: none;
+    &#resto
+    {
+      background-repeat: no-repeat;
+      border-clip:content-box;
+      background: url(../img/tache-vin-le-resto.png) no-repeat center center ;
+         @include prefix(background-size,contain,webkit ms o moz);
+    }
+    &#equipe
+    {
+      background-repeat: no-repeat;
+      border-clip:content-box;
+      background: url(../img/tache-vin-equipe.png) no-repeat center center ;
+         @include prefix(background-size,contain,webkit ms o moz);
+    }
+    &#infos
+    {
+      background-repeat: no-repeat;
+      border-clip:content-box;
+      background: url(../img/tache-vin-infos-pratiques.png) no-repeat center center ;
+         @include prefix(background-size,contain,webkit ms o moz);
+    }
+    & a
+    {
+    align-self: flex-end;
+      font-size: 1.2em;
+      position: relative;
+      bottom: -105px;
+      text-align: center;
+      color: #1F0F61;
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+    & a:hover
+    {
+      border-bottom: 4px solid #1F0F61;
+    }
+
+    & a:active
+    {
+      font-weight: bold;
+      border-bottom: 4px solid #1F0F61;
+    }
+  }
+}
+
+
+
+
+
+@media only screen
+and (max-width:1200px) {
+  li#resto, li#equipe, li#infos {
+    //background-image: none;
+    font-size: 14px;
+  }
+}
+
+
+
+
+
+footer p {
+  color: grey;
+  font-size: 0.5em;
+}
