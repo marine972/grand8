@@ -19,9 +19,10 @@ html {
 .container {
   width: 100%;
   height: 100%;
-  border-clip: content-box; }
+  border-clip: content-box;
+  margin-top: 80px; }
   .container#page-home {
-    background: url(../img/background-devanture-cut.png) no-repeat center center;
+    background: url(../img/background-devanture-cut.png) no-repeat top center;
     -webkit-background-size: contain;
     -ms-background-size: contain;
     -o-background-size: contain;
