@@ -5,6 +5,7 @@
 		<title>Restaurant Le Grand 8</title>
 		<link rel="stylesheet" style="text/css" href="css/grand8.css" media="screen"/>
 		<link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 		<script   src="https://code.jquery.com/jquery-3.1.0.js"   integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="   crossorigin="anonymous"></script>
    	</head>
 	<body>
@@ -19,7 +20,31 @@
 		</section>
 
 		<section class="container hidden" id="page-resto">
-			tutu
+			<aside id="aside-resto">
+				<ul id="colonnes-infos">
+					<li class="colonnes" id="c1">
+						<p class="icon"><span class="fa fa-glass fa-2x bleu" aria-hidden="true"></span></p>
+						<h3>Une large sélection de vins nature</h3>
+						<p>Émilie sera votre sommelier pour la soirée. Elle sélectionne et conseille selon vos goûts LE vin nature adapté aux mets choisis. Elle ne se trompe jamais !</p>
+					</li>
+					<li class="colonnes">
+						<p class="icon"><span class="fa fa-users fa-2x bleu" aria-hidden="true"></span></p>
+						<h3>L'authenticité</h3>
+						<p>Au Grand 8, pas de chichi.<br />Ce bistrot chaleureux et convivial vous fera même tourner la tête avec sa superbe vue des toits de Paris.</p>
+					</li>
+					<li class="colonnes">
+						<p class="icon"><span class="fa fa-map fa-2x bleu" aria-hidden="true"></span></p>
+						<h3>Un carte de Saison</h3>
+						<p>Et oui ! La carte est confectionnée chaque jour en fonction des produits frais sélectionnés par le chef ! Quelques incontournables restent proposés comme les tripes, un vrai régal !</p>
+					</li>
+					<li class="colonnes" id="c4">
+							<p class="icon"><span class="fa fa-eur fa-2x white" aria-hidden="true"></span></p>
+							<h3>Deux formules</h3>
+							<p class="white">Entrée + Plat ou Plat + Fromage ou Dessert<br/>28€</p>
+							<p class="white">Entrée + Plat + Fromage ou Dessert<br/>34€</p>
+					</li>
+				</ul>
+			</aside>
 		</section>
 
 		<section class="container hidden" id="page-team">
@@ -30,11 +55,13 @@
 			<aside>
 				<ul id="colonnes-infos">
 					<li class="colonnes" id="c1">
+						<p class="icon"><span class="fa fa-map-marker fa-2x bleu" aria-hidden="true"></span></p>
 						<h3>Pour s'y rendre</h3>
 						<p>8, rue Lamarck <br/> 75018 Paris</p>
 						<p class="conseil"><a href="https://www.google.fr/maps/place/Le+Grand+8/@48.8868208,2.3423367,17z/data=!3m1!4b1!4m5!3m4!1s0x47e66e5d29517295:0xd8bc35880ebde35d!8m2!3d48.8868208!4d2.3445254" target="_blank"> >> Accéder au plan << </a></p>
 					</li>
 					<li class="colonnes">
+						<p class="icon"><span class="fa fa-subway fa-2x bleu" aria-hidden="true"></span></p>
 						<h3>Les métros les plus proches</h3>
 						<ul id="metro">
 							<li><span class="metro ligne2">Ligne 2</span>Anvers <span id="funiculaire">(funiculaire du Sacré-Coeur)</span></li>
@@ -43,13 +70,15 @@
 						</ul>
 					</li>
 					<li class="colonnes">
+						<p class="icon"><span class="fa fa-clock-o fa-2x bleu" aria-hidden="true"></span></p>
 						<h3>Les horaires</h3>
 						<p>du mercredi au dimanche<br/>midi (12h-14h) & soir (19h-23h30)</p>
-						<p class="conseil">Réservation fortement conseillées le week-end !<br/>Les tickets restaurant ne sont pas acceptés</p>
+						<p class="conseil">Réservation fortement conseillée le week-end !<br/>Les tickets restaurant ne sont pas acceptés</p>
 					</li>
 					<li class="colonnes" id="c4">
-							<h2>Pour réserver</h2>
-							<p>01 42 55 05 55</p>
+							<p class="icon"><span class="fa fa-phone fa-2x white" aria-hidden="true"></span></p>
+							<h3>Pour réserver</h3>
+							<p id="numero-tel">01 42 55 05 55</p>
 					</li>
 				</ul>
 			</aside>
@@ -110,9 +139,6 @@ var showPage = function(pageName)
 								$('nav > ul> li> a').addClass('white');
 								console.log('ici lancement de la page info');
 							});
-
-
-
 			}
 		);
 
