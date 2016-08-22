@@ -176,6 +176,14 @@ and (max-width:1200px) {
   }
 }
 @media only screen
+and (max-width:800px) {
+  aside#aside-team {
+    h2+p {
+      margin: 10px 10px!important;
+    }
+  }
+}
+@media only screen
 and (max-width:500px) {
   .container {
     background-attachment: fixed;
@@ -265,6 +273,38 @@ aside#aside-resto{
   }
 }
 
+aside#aside-team{
+  p {
+    font-size: 0.9em;
+  }
+  h2 {
+    color: #1F0F61;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    margin-top: 5px;
+    font-weight: lighter;
+  }
+  h3 {
+    margin-top: 30px;
+    font-size: 1.8em;
+  }
+  h2+p {
+    margin: 10px 60px;
+    color: #1F0F61;
+  }
+  ul#colonnes-infos li.colonnes {
+    width: 50%;
+    padding: 0 8px;
+    &#c4 {
+      background-color: white;
+      h3 {
+      margin-top: 30px;
+      font-size: 1.8em;
+      color: #892034;
+    }
+   }
+  }
+}
 
 
 aside {
