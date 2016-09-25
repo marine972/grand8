@@ -41,9 +41,37 @@ html
      @include prefix(background-size,cover,webkit ms o moz);
   }
   &#page-resto{
-    background: url(../img/fond-vin.jpeg) no-repeat center center ;
-     @include prefix(background-size,cover,webkit ms o moz);
+    //background: url(../img/fond-vin.jpeg) no-repeat center center ;
+    // @include prefix(background-size,cover,webkit ms o moz);
+     &.resto-01{
+       background: url(../img/resto/bouteilles-vin.jpg) no-repeat center center ;
+       @include prefix(background-size,cover,webkit ms o moz);
+    }
+     &.resto-02{
+       background: url(../img/resto/fond-vin.jpeg) no-repeat center center ;
+       @include prefix(background-size,cover,webkit ms o moz);
+    }
+     &.resto-03{
+       background: url(../img/resto/resto-03.jpg) no-repeat center center ;
+       @include prefix(background-size,cover,webkit ms o moz);
+    }
   }
+
+  &#page-team{
+    &.team-01{
+      background: url(../img/team/team-01.jpeg) no-repeat center center ;
+      @include prefix(background-size,cover,webkit ms o moz);
+   }
+    &.team-02{
+      background: url(../img/team/team-02.jpeg) no-repeat center center ;
+      @include prefix(background-size,cover,webkit ms o moz);
+   }
+    &.team-03{
+      background: url(../img/team/team-03.jpeg) no-repeat center center ;
+      @include prefix(background-size,cover,webkit ms o moz);
+   }
+
+ }
 }
 
 

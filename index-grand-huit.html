@@ -44,6 +44,7 @@
 							<p class="white">Entrée + Plat + Fromage ou Dessert<br/>34€</p>
 					</li>
 				</ul>
+
 			</aside>
 		</section>
 
@@ -112,6 +113,15 @@
 		<!--	<p>&copy; tous droits réservés - site créé par Marine Pelletier pour le Restaurant le Grand 8 -</p>-->
 		</footer>
 		<script>
+				var imageIndexTeam = 0;
+				var imageIndexResto = 0;
+				var ImagesTeam = ["team-01",
+													 "team-02",
+													 "team-03"];
+				var ImagesResto = ["resto-01",
+													 "resto-02",
+													 "resto-03"];
+
 var showPage = function(pageName)
 {
 	$('.container').each(function()
@@ -126,30 +136,56 @@ var showPage = function(pageName)
 	});
 };
 
+function changeBackgroundTeam(){
+    var index = imageIndexTeam++ % ImagesTeam.length;
+    $("#page-team").attr('class','container');
+		$("#page-team").addClass(ImagesTeam[index]);
+		console.log(ImagesTeam[index]);
+}
+
+function changeBackgroundRestaurant(){
+    var index = imageIndexResto++ % ImagesResto.length;
+    $("#page-resto").attr('class','container');
+		$("#page-resto").addClass(ImagesResto[index]);
+		console.log(ImagesResto[index]);
+}
 
 		$( document ).ready(
 			function(){
+				var cycle;
+
+
 
 				$('h1>a').on('click',function()
 							{
+									clearInterval(cycle);
 									showPage('page-home');
-
+									$('nav > ul> li> a').removeClass('white');
 							});
 
 				$('#resto').on('click',function()
 							{
+								clearInterval(cycle);
 								showPage('page-resto');
+									$("#page-resto").addClass(ImagesResto[2]);
+								cycle = setInterval(changeBackgroundRestaurant, 10000);
+								 $('nav > ul> li> a').addClass('white');
 								console.log('ici lancement de la page resto');
 							});
 
 			$('#equipe').on('click',function()
 						{
+							clearInterval(cycle);
 							showPage('page-team');
+							$("#page-team").addClass(ImagesTeam[2]);
+							 cycle = setInterval(changeBackgroundTeam, 10000);
+							 $('nav > ul> li> a').addClass('white');
 							console.log('ici lancement de la page equipe');
 						});
 
 				$('#infos').on('click',function()
 							{
+								clearInterval(cycle);
 								showPage('page-info');
 								$('nav > ul> li> a').addClass('white');
 								console.log('ici lancement de la page info');

@@ -35,8 +35,43 @@ html {
     -o-background-size: cover;
     -moz-background-size: cover;
     background-size: cover; }
-  .container#page-resto {
-    background: url(../img/fond-vin.jpeg) no-repeat center center;
+  .container#page-resto.resto-01 {
+    background: url(../img/resto/bouteilles-vin.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover; }
+  .container#page-resto.resto-02 {
+    background: url(../img/resto/fond-vin.jpeg) no-repeat center center;
+    -webkit-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover; }
+  .container#page-resto.resto-03 {
+    background: url(../img/resto/resto-03.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover; }
+  .container#page-team.team-01 {
+    background: url(../img/team/team-01.jpeg) no-repeat center center;
+    -webkit-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover; }
+  .container#page-team.team-02 {
+    background: url(../img/team/team-02.jpeg) no-repeat center center;
+    -webkit-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover; }
+  .container#page-team.team-03 {
+    background: url(../img/team/team-03.jpeg) no-repeat center center;
     -webkit-background-size: cover;
     -ms-background-size: cover;
     -o-background-size: cover;

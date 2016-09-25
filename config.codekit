@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "19127",
+"creatorBuild": "19137",
 "files": {
 	"\/bootstrap\/css\/bootstrap-theme.css": {
 		"fileType": 16,
@@ -174,13 +174,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/bouteilles-vin.jpg": {
+	"\/img\/fond-sacrecoeur.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 96608,
-		"inputAbbreviatedPath": "\/img\/bouteilles-vin.jpg",
-		"outputAbbreviatedPath": "\/img\/bouteilles-vin.jpg",
+		"initialSize": 454163,
+		"inputAbbreviatedPath": "\/img\/fond-sacrecoeur.jpg",
+		"outputAbbreviatedPath": "\/img\/fond-sacrecoeur.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/fond-view-sacrecoeur.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 844098,
+		"inputAbbreviatedPath": "\/img\/fond-view-sacrecoeur.jpg",
+		"outputAbbreviatedPath": "\/img\/fond-view-sacrecoeur.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -192,6 +203,39 @@
 		"initialSize": 113779,
 		"inputAbbreviatedPath": "\/img\/plan.png",
 		"outputAbbreviatedPath": "\/img\/plan.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/resto\/bouteilles-vin.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 96608,
+		"inputAbbreviatedPath": "\/img\/resto\/bouteilles-vin.jpg",
+		"outputAbbreviatedPath": "\/img\/resto\/bouteilles-vin.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/resto\/fond-vin.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.18834e+06,
+		"inputAbbreviatedPath": "\/img\/resto\/fond-vin.jpeg",
+		"outputAbbreviatedPath": "\/img\/resto\/fond-vin.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/resto\/resto-03.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 789607,
+		"inputAbbreviatedPath": "\/img\/resto\/resto-03.jpg",
+		"outputAbbreviatedPath": "\/img\/resto\/resto-03.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -262,6 +306,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/team\/team-01.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56525,
+		"inputAbbreviatedPath": "\/img\/team\/team-01.jpeg",
+		"outputAbbreviatedPath": "\/img\/team\/team-01.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/team\/team-02.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 275279,
+		"inputAbbreviatedPath": "\/img\/team\/team-02.jpeg",
+		"outputAbbreviatedPath": "\/img\/team\/team-02.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/team\/team-03.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 137778,
+		"inputAbbreviatedPath": "\/img\/team\/team-03.jpeg",
+		"outputAbbreviatedPath": "\/img\/team\/team-03.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/index-grand-huit.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -270,29 +347,11 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/pages\/page-infos.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pages\/page-infos.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/pages\/page-infos2.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pages\/page-infos2.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		}
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Marine PELLETIER",
+"lastSavedByUser": "mp",
 "manualImportLinks": {
 	},
 "projectAttributes": {
