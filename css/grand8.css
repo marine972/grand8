@@ -29,14 +29,14 @@ html {
     -moz-background-size: contain;
     background-size: contain; }
   .container#page-info {
-    background: url(../img/sacre-coeur2.jpg) no-repeat center center;
+    background: url(../img/fond-sacrecoeur.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -ms-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
     background-size: cover; }
   .container#page-resto {
-    background: url(../img/bouteilles-vin.jpg) no-repeat center center;
+    background: url(../img/fond-vin.jpeg) no-repeat center center;
     -webkit-background-size: cover;
     -ms-background-size: cover;
     -o-background-size: cover;

@@ -37,11 +37,11 @@ html
      @include prefix(background-size,contain,webkit ms o moz);
   }
   &#page-info{
-    background: url(../img/sacre-coeur2.jpg) no-repeat center center ;
+    background: url(../img/fond-sacrecoeur.jpg) no-repeat center center ;
      @include prefix(background-size,cover,webkit ms o moz);
   }
   &#page-resto{
-    background: url(../img/bouteilles-vin.jpg) no-repeat center center ;
+    background: url(../img/fond-vin.jpeg) no-repeat center center ;
      @include prefix(background-size,cover,webkit ms o moz);
   }
 }
