@@ -324,6 +324,10 @@ aside {
           font-size: 1.9em;
           font-weight: bold;
           color: white; }
+          aside ul#colonnes-infos li.colonnes#c4 p#mail {
+            font-size: 1em;
+            margin-top: 0;
+            color: white; }
 
 p.icon {
   margin-bottom: 5px; }
