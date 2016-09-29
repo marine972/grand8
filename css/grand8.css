@@ -112,7 +112,19 @@ ul#sprite {
     margin-left: 10px;
     list-style-type: none;
     height: 32px;
-    width: 33px; }
+    width: 40px; }
+  ul#sprite li#site-versions {
+    width : 60px;
+  }
+
+#site-versions a {
+    color: white;
+    text-decoration: none;
+}
+#site-versions {
+  color: white;
+  margin-top: 10px;
+}
 
 #facebook {
   height: 32px;
