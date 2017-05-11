@@ -420,6 +420,16 @@ aside ul#colonnes-infos li.colonnes#c4 p#mail {
   margin-top: 0;
   color: white;
 }
+aside ul#colonnes-infos li.colonnes#c4 p#internet{
+  font-size: 1em;
+  margin-top: -5px;
+  color: white;
+  font-weight: bold;
+}
+aside ul#colonnes-infos li.colonnes#c4 p#internet a{
+  font-size: 1em;
+  color: white;
+}
 p.icon {
   margin-bottom: 5px;
 }
